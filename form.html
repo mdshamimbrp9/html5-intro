@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form for Pitha ghore</title>
+  <style>
+    .basic-info {
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
   <header>
 
@@ -13,14 +19,17 @@
 <section>
   <h2>Jamal Mother Pitha Ghar</h2>
   <form action="">
-    <label for="name">Your Name</label>
-    <input type="text" name="" id="" placeholder=""> <br>
-
-    <label for="email">Enter Your Email</label>
-    <input type="email" name="" id="email"> <br>
-
-    <label for="phone">Phone Number</label>
-    <input type="tel" name="" id="phone"> <br>
+    <fieldset class="basic-info">
+      <legend>Basic Info</legend>
+          <label for="name">Your Name</label>
+          <input type="text" name="" id="" placeholder="Enter Your Name">  <br>
+          
+          <label for="email">Enter Your Email</label>
+          <input type="email" name="" id="email">  <br>
+          
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="" id="phone">  
+    </fieldset>
 
     <fieldset>
       <legend>Pitha Info</legend>
